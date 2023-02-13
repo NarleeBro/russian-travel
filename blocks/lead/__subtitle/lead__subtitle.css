@@ -12,3 +12,30 @@
   align-self: center;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    /* max-width: calc(450px + (720 - 450) * ((100vw - 768px) / (1024 - 768))); */
+    max-width: 400px;
+    font-size: 20px;
+    line-height: 1;
+    padding-top: 16px;
+
+    }
+}
+
+@media screen and (max-width: 450px) {
+  .lead__subtitle {
+    /* max-width: calc(450px + (720 - 450) * ((100vw - 768px) / (1024 - 768))); */
+    max-width: 320px;
+    font-size: 15px;
+    line-height: 1;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    /* max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320))); */
+    max-width: 288px;
+    }

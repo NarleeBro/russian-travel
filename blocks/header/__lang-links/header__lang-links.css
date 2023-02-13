@@ -1,6 +1,6 @@
 .header__lang-links {
   margin: 0;
-  padding: 0; /* может нужно добавить сверху 18 пикселей для выравнивания с лого по размерам? */
+  padding: 0;
   display: flex;
   align-items: center;
   gap: 18px;

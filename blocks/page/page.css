@@ -1,11 +1,9 @@
 .page {
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 0;
-  background-color: #2A2C2F;
+  min-width: 360px;
   font-family: 'Inter' , Arial, sans-serif;
   font-weight: normal;
   color: #FFFFFF;
-  max-width: 1280px;
-  min-width: 360px;
   box-sizing: border-box;
 }

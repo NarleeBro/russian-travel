@@ -10,7 +10,7 @@
   color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
-  z-index: 10;
+  z-index: 100;
   align-self: center;
 }
 

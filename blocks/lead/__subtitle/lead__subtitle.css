@@ -3,8 +3,7 @@
   padding: 0;
   padding-top: 32px;
   max-width: 640px;
-  /* min-height: 72px; */
-  /* font-style: normal; */
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
@@ -13,9 +12,12 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__subtitle {
-    /* max-width: calc(450px + (720 - 450) * ((100vw - 768px) / (1024 - 768))); */
+    /* max-width: calc(288 + 352*((100vw - 320px)/447));
+    font-size: calc(15 + 15*((100vw - 320px)/447));
+    line-height: calc(1 + 0.2*((100vw - 320px)/447));
+    padding-top: calc(16 + 16*((100vw - 320px)/447)); */
     max-width: 400px;
     font-size: 20px;
     line-height: 1;

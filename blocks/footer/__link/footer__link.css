@@ -4,12 +4,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.1;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
 
-footer__link:hover {
+.footer__link:hover {
   opacity: 0.8;
   transition: 0.5s ease-in-out;
 }
@@ -17,20 +17,20 @@ footer__link:hover {
 @media screen and (max-width: 480px) {
   .footer__link {
     font-size: 30px;
-  line-height: 1;
+    line-height: 1;
   }
 }
 
 @media screen and (max-width: 375px) {
   .footer__link {
     font-size: 27px;
-  line-height: 1;
+    line-height: 1;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__link {
     font-size: 24px;
-  line-height: 1;
+    line-height: 1;
   }
 }

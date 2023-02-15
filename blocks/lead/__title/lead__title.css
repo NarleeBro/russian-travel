@@ -2,20 +2,27 @@
   margin: 0;
   padding: 0;
   max-width: 720px;
-  /* min-height: 200px; */
   text-align: center;
   align-self: center;
   color: #ffffff;
-  /* font-style: normal; */
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 900;
   font-size: 96px;
   line-height: 1;
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   .lead__title {
-    max-width: 420px;
+    max-width: 670px;
+    font-size: 70px;
+    line-height: 1;
+    }
+}
+
+@media screen and (max-width: 540px) {
+  .lead__title {
+    max-width: 430px;
     font-size: 60px;
     line-height: 1;
     }
@@ -31,6 +38,8 @@
 
 @media screen and (max-width: 320px) {
   .lead__title {
-    padding-top: 8px;
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
     }
 }

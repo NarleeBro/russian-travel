@@ -5,7 +5,7 @@
   text-align: center;
   align-self: center;
   color: #ffffff;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 900;
   font-size: 96px;
   line-height: 1;
@@ -17,23 +17,23 @@
     max-width: 670px;
     font-size: 70px;
     line-height: 1;
-    }
+  }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 600px) {
   .lead__title {
     max-width: 430px;
     font-size: 60px;
     line-height: 1;
-    }
+  }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .lead__title {
-    max-width: 321px;
+    max-width: 430px;
     font-size: 40px;
     line-height: 1;
-    }
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -41,5 +41,5 @@
     max-width: 288px;
     font-size: 40px;
     line-height: 1.1;
-    }
+  }
 }

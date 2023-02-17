@@ -13,6 +13,7 @@
   z-index: 100;
   align-self: center;
   padding-bottom: 32px;
+  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 540px) {

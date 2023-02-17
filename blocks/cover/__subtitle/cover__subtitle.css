@@ -10,6 +10,7 @@
   line-height: 1.2;
   color: #ffffff;
   z-index: 100;
+  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 360px) {

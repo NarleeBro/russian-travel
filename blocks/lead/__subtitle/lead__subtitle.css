@@ -3,7 +3,7 @@
   padding: 0;
   padding-top: 32px;
   max-width: 640px;
-    font-family: 'Inter', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
@@ -15,7 +15,6 @@
 
 @media screen and (max-width: 500px) {
   .lead__subtitle {
-    /* max-width: calc(450px + (720 - 450) * ((100vw - 768px) / (1024 - 768))); */
     max-width: 400px;
     font-size: 20px;
     line-height: 1.2;
@@ -25,7 +24,6 @@
 
 @media screen and (max-width: 400px) {
   .lead__subtitle {
-    /* max-width: calc(450px + (720 - 450) * ((100vw - 768px) / (1024 - 768))); */
     max-width: 350px;
     font-size: 18px;
     line-height: 1.2;

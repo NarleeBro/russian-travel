@@ -6,12 +6,17 @@
   padding-left: 148px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1110px) {
   .places {
-    padding-top: 92px;
-    padding-right: 78px;
-    padding-bottom: 92px;
-    padding-left: 78px;
+    padding-right: 74px;
+    padding-left: 74px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding-right: 48px;
+    padding-left: 48px;
   }
 }
 
@@ -26,6 +31,9 @@
 
 @media screen and (max-width: 540px) {
   .places {
-    padding: 64px 0px 66px 0;
+    padding-top: 64px;
+    padding-right: 0px;
+    padding-bottom: 66px;
+    padding-left: 0px;
   }
 }

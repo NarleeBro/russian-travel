@@ -6,11 +6,11 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 1;
-  color: #FFFFFF;
+  color: #ffffff;
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro__title {
     max-width: 720px;
   }
@@ -19,14 +19,14 @@
 @media screen and (max-width: 480px) {
   .intro__title {
     max-width: 288px;
-    font-size: 38px;
+    font-size: calc(38px + (54 - 38) * ((100vw - 480px) / (767 - 480)));
     line-height: 1;
   }
 }
 
 @media screen and (max-width: 375px) {
   .intro__title {
-    font-size: 32px;
+    font-size: calc(32px + (38 - 32) * ((100vw - 375px) / (480 - 375)));
     line-height: 1;
   }
 }

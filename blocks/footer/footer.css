@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 701px) {
+@media screen and (max-width: 720px) {
   .footer {
     padding-top: 58px;
     padding-right: 0px;
@@ -40,7 +40,7 @@
   }
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 480px) {
   .footer {
     padding-top: 64px;
     padding-right: 118px;

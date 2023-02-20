@@ -24,7 +24,6 @@
     max-width: calc(720px + (928 - 720) * ((100vw - 767px) / (1023 - 767)));
     padding-top: 88px;
     padding-right: 24px;
-    padding-bottom: 0;
     padding-left: 24px;
     gap: calc(16px + (14 - 16) * ((100vw - 767px) / (1023 - 767)));
   }
@@ -37,7 +36,6 @@
     gap: calc(12px + (16 - 12) * ((100vw - 540px) / (767 - 540)));
     padding-top: 64px;
     padding-right: 16px;
-    padding-bottom: 0;
     padding-left: 16px;
   }
 }

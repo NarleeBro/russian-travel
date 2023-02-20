@@ -6,7 +6,7 @@
   font-family: "Inter", Arial, sans-serif;
   font-weight: 900;
   font-size: 96px;
-  line-height: 1;
+  line-height: 1.04;
   text-rendering: optimizeLegibility;
   text-align: center;
   align-self: center;
@@ -17,8 +17,7 @@
     max-width: 670px;
     /* font-size: 70px; */
     font-size: calc(70px + (96 - 70) * ((100vw - 767px) / (1023 - 767)));
-    line-height: 1;
-  }
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -26,15 +25,14 @@
     max-width: 430px;
     /* font-size: 60px; */
     font-size: calc(60px + (70 - 60) * ((100vw - 600px) / (767 - 600)));
-    line-height: 1;
-  }
+    }
 }
 
 @media screen and (max-width: 540px) {
   .lead__title {
     max-width: 430px;
     font-size: 40px;
-    line-height: 1;
+    line-height: 1.1;
   }
 }
 

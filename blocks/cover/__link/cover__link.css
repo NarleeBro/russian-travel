@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   background-image: url(../../../images/cover-trains.jpg);
-  background-position: center;
   max-width: 100%;
   min-height: 740px;
   display: flex;
@@ -24,6 +23,11 @@
   background: #2a2c2f;
   opacity: 0.3;
   z-index: 0;
+}
+
+.cover__link:hover:before {
+  opacity: 0.8;
+  transition: 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 1023px) {

@@ -11,9 +11,7 @@
 
 @media screen and (max-width: 1023px) {
   .intro {
-    padding-top: 92px;
     padding-right: 286px;
-    padding-bottom: 0;
     padding-left: 48px;
   }
 }
@@ -31,7 +29,6 @@
   .intro {
     padding-top: 64px;
     padding-right: 16px;
-    padding-bottom: 0;
     padding-left: 16px;
   }
 }

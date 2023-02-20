@@ -20,13 +20,11 @@
   .intro__title {
     max-width: 288px;
     font-size: calc(38px + (54 - 38) * ((100vw - 480px) / (767 - 480)));
-    line-height: 1;
-  }
+    }
 }
 
 @media screen and (max-width: 375px) {
   .intro__title {
     font-size: calc(32px + (38 - 32) * ((100vw - 375px) / (480 - 375)));
-    line-height: 1;
-  }
+    }
 }

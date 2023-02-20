@@ -20,7 +20,6 @@
     margin-top: 48px;
     margin-bottom: 24px;
     padding-top: 14px;
-    font-size: 14px;
     line-height: 1;
     text-align: left;
   }
@@ -29,7 +28,5 @@
 @media screen and (max-width: 320px) {
   .footer__copyright {
     margin-bottom: 0;
-    font-size: 14px;
-    line-height: 1;
-  }
+    }
 }

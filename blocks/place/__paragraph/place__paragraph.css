@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   max-width: 484px;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-bottom: 26px;
   text-rendering: optimizeLegibility;
 }
@@ -18,5 +18,5 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-    }
+  }
 }

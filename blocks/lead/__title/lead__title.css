@@ -17,7 +17,7 @@
     max-width: 670px;
     /* font-size: 70px; */
     font-size: calc(70px + (96 - 70) * ((100vw - 767px) / (1023 - 767)));
-    }
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -25,7 +25,7 @@
     max-width: 430px;
     /* font-size: 60px; */
     font-size: calc(60px + (70 - 60) * ((100vw - 600px) / (767 - 600)));
-    }
+  }
 }
 
 @media screen and (max-width: 540px) {

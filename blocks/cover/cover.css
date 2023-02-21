@@ -7,7 +7,7 @@
   max-width: 1184px;
   }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1024px) {
   .cover {
     padding-right: 0;
     padding-left: 0;

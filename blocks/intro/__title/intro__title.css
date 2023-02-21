@@ -28,3 +28,9 @@
     font-size: calc(32px + (38 - 32) * ((100vw - 375px) / (480 - 375)));
     }
 }
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    }
+}

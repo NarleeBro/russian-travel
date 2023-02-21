@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .footer {
     padding-top: 88px;
     padding-right: 24px;
@@ -41,5 +41,11 @@
     padding-top: 64px;
     padding-right: 118px;
     padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: calc(320px - (118px + 16px));
   }
 }

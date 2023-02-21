@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   padding-bottom: 80px;
-  max-width: 984px;
   display: grid;
   grid-template-columns: minmax(min-content, 300px) minmax(320px, 1fr);
   grid-template-rows: 2fr;
@@ -35,7 +34,6 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    width: 720px;
     grid-template-columns: minmax(min-content, 340px) minmax(320px, 1fr);
   }
 }

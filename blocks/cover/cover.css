@@ -5,9 +5,9 @@
   padding-bottom: 0;
   padding-left: 48px;
   max-width: 1184px;
-}
+  }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .cover {
     padding-right: 0;
     padding-left: 0;

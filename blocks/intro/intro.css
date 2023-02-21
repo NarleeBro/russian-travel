@@ -9,15 +9,17 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .intro {
+    max-width: 690px;
     padding-right: 286px;
     padding-left: 48px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .intro {
+    max-width: 720px;
     padding-top: 88px;
     padding-right: 24px;
     padding-bottom: 0;

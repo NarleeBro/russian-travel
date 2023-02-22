@@ -20,15 +20,13 @@
   .cover__title {
     max-width: 350px;
     font-size: calc(40px + (72 - 40) * ((100vw - 540px) / (1280 - 540)));
-    line-height: 1;
-  }
+    }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
     max-width: 288px;
     font-size: calc(32px + (40 - 32) * ((100vw - 320px) / (540 - 320)));
-    line-height: 1;
     padding-bottom: 16px;
   }
 }

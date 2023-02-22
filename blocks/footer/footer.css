@@ -46,6 +46,7 @@
 
 @media screen and (max-width: 320px) {
   .footer {
-    max-width: calc(320px - (118px + 16px));
+    /* max-width: calc(320px - (118px + 16px)); */
+    width: auto;
   }
 }
